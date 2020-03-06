@@ -2,6 +2,17 @@
   "name": "turkaytunc.com",
   "version": "0.1.0",
   "private": true,
+  "description": "Personal web site",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/turkaytunc/turkaytunc.com.git"
+  },
+  "author": "Turkay Tunc",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/turkaytunc/turkaytunc.com/issues"
+  },
+  "homepage": "https://www.turkaytunc.com",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
