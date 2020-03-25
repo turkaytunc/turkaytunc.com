@@ -8,42 +8,52 @@
 
 .footer-div-1 {
   background: #222;
+  text-align: center;
 }
+
 .footer-div-1 ul {
   list-style: none;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5rem;
 }
+
 .footer-div-1 li a,
 :active,
 :visited {
   text-decoration: none;
   color: aliceblue;
 }
+
 .footer-div-1 li a:hover {
   color: rgb(176, 210, 240);
 }
 
 .footer-div-1 li a p {
   display: inline-block;
-  margin-left: 0.2rem;
+  align-items: center;
+  justify-content: center;
 }
 
-.footer-div-1 li a img {
+.footer-div-1 li a p img {
   display: inline-block;
+  margin-right: 0.5rem;
   border-radius: 8px;
 }
 
 .footer-div-2 {
-  background: red;
+  background: #222;
   padding: 5rem 0;
 }
 
 .footer-div-3 {
   display: grid;
   text-align: center;
-  background: green;
 }
 
 .footer-div-3-p {
   margin-top: auto;
   margin-bottom: 2rem;
+  font-size: large;
 }
