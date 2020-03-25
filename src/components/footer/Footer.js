@@ -59,7 +59,7 @@ function Footer() {
           </li>
         </ul>
       </div>
-      <div className="footer-div-2"></div>
+      <div className="footer-div-2">fix</div>
       <div className="footer-div-3">
         <p className="footer-div-3-p">&copy;2020 Türkay Tunç</p>
       </div>
