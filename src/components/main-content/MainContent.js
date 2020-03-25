@@ -3,7 +3,7 @@ import React from "react";
 function MainContent() {
   return (
     <div>
-      <h1>Hello from home</h1>
+      <h1>Giris sayfasi icerigi</h1>
     </div>
   );
 }

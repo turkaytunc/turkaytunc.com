@@ -1,7 +1,7 @@
 import React from "react";
 
 function Projects() {
-  return <div></div>;
+  return <div>Bazi projeler vs</div>;
 }
 
 export default Projects;
