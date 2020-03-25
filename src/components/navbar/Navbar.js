@@ -6,22 +6,22 @@ function Navbar() {
     <div className="navbar-div">
       <ul className="navbar-ul">
         <li className="navbar-li">
-          <a className="navbar-a" href="#">
+          <a className="navbar-a" href="/">
             Home
           </a>
         </li>
         <li className="navbar-li">
-          <a className="navbar-a" href="#Projects">
+          <a className="navbar-a" href="/projects">
             Projects
           </a>
         </li>
         <li className="navbar-li">
-          <a className="navbar-a" href="#Articles">
+          <a className="navbar-a" href="/articles">
             Articles
           </a>
         </li>
         <li className="navbar-li">
-          <a className="navbar-a" href="#Contact">
+          <a className="navbar-a" href="/contact">
             Contact
           </a>
         </li>
