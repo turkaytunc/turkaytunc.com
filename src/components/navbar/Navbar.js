@@ -3,19 +3,27 @@ import "./navbar.css";
 
 function Navbar() {
   return (
-    <div className="navbar--div">
-      <ul>
-        <li>
-          <a href="#">Home</a>
+    <div className="navbar-div">
+      <ul className="navbar-ul">
+        <li className="navbar-li">
+          <a className="navbar-a" href="#">
+            Home
+          </a>
         </li>
-        <li>
-          <a href="#Projects">Projects</a>
+        <li className="navbar-li">
+          <a className="navbar-a" href="#Projects">
+            Projects
+          </a>
         </li>
-        <li>
-          <a href="#Articles">Articles</a>
+        <li className="navbar-li">
+          <a className="navbar-a" href="#Articles">
+            Articles
+          </a>
         </li>
-        <li>
-          <a href="#Contact">Contact</a>
+        <li className="navbar-li">
+          <a className="navbar-a" href="#Contact">
+            Contact
+          </a>
         </li>
       </ul>
     </div>
