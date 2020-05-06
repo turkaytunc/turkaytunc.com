@@ -64,17 +64,17 @@ function Footer() {
           <li>
             <a
               className="footer-div-2-a"
-              href="https://github.com/turkaytunc"
+              href="https://www.instagram.com/filthycoder/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <p>
                 <img
-                  src={`${process.env.PUBLIC_URL}/footer/github-icon.png`}
+                  src={`${process.env.PUBLIC_URL}/footer/instagramlogo.png`}
                   height="16px"
-                  alt="github-img"
+                  alt="instagram-img"
                 />
-                GitHub
+                Instagram
               </p>
             </a>
           </li>
