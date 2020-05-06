@@ -8,6 +8,7 @@
 
 .footer-div-1 {
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   background: #222;
   align-items: center;
   text-align: center;
@@ -16,6 +17,7 @@
 }
 
 .footer-div-1 ul {
+  grid-column: 2;
   padding-inline-start: 0;
   list-style: none;
   margin: 0;
@@ -40,13 +42,14 @@
 
 .footer-div-2 {
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   background: #222;
   padding: 5rem 0;
   align-items: center;
-  text-align: center;
 }
 
 .footer-div-2 ul {
+  grid-column: 2;
   list-style: none;
   display: inline-block;
   padding-inline-start: 0;
