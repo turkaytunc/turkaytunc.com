@@ -45,6 +45,39 @@
 .footer-div-2 {
   background: #222;
   padding: 5rem 0;
+  text-align: center;
+}
+
+
+.footer-div-2 ul {
+  list-style: none;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5rem;
+}
+
+.footer-div-2 li a,
+:active,
+:visited {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.footer-div-2 li a:hover {
+  color: rgb(176, 210, 240);
+}
+
+.footer-div-2 li a p {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-div-2 li a p img {
+  display: inline-block;
+  margin-right: 0.5rem;
+  border-radius: 8px;
 }
 
 .footer-div-3 {
@@ -58,7 +91,7 @@
   font-size: large;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 520px) {
   .footer-main-wrap {
     grid-template-columns: 1fr;
   }
