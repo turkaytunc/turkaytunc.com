@@ -8,15 +8,16 @@
 
 .footer-div-1 {
   background: #222;
+  padding: 5rem 0;
   text-align: center;
+
 }
 
 .footer-div-1 ul {
   list-style: none;
   display: inline-block;
-  align-items: center;
-  justify-content: center;
-  padding: 0 5rem;
+  text-align: center;
+  padding: 0 1rem;
 }
 
 .footer-div-1 li a,
