@@ -10,10 +10,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   background: #222;
+  padding: 5rem 0;
   align-items: center;
-  text-align: center;
-
-
 }
 
 .footer-div-1 ul {
@@ -24,8 +22,8 @@
 }
 
 .footer-div-1 li a,
-:active,
-:visited {
+.footer-div-2 li a:active,
+.footer-div-2 li a:visited {
   text-decoration: none;
   color: aliceblue;
 }
@@ -56,8 +54,8 @@
 }
 
 .footer-div-2 li a,
-:active,
-:visited {
+.footer-div-2 li a:active,
+.footer-div-2 li a:visited {
   text-decoration: none;
   color: aliceblue;
 }

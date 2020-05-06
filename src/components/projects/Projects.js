@@ -2,7 +2,7 @@ import React from "react";
 
 function Projects() {
   document.title = "Projects";
-  return <div>Bazi projeler vs</div>;
+  return <div>Soon to be added.</div>;
 }
 
 export default Projects;
