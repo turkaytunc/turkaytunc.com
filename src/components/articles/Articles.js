@@ -1,9 +1,11 @@
 import React from "react";
 
 function Articles() {
+  document.title = "Articles";
   return (
     <div>
-      <p>TODO: yazilar buraya eklenecek , yeni componentler ekle</p>
+      <p>Nothing to see here! </p>
+      <p>Yet! </p>
     </div>
   );
 }
