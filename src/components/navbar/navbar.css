@@ -73,9 +73,8 @@
         grid-column: 1;
     }
 
-    .navbar-li {
+    .navbar-a {
+        display: inline-block;
         font-size: 2rem;
-        font-weight: 400;
-        margin-bottom: 2rem;
     }
 }
