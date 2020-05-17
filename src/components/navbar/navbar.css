@@ -1,22 +1,22 @@
 @keyframes navbar-animation {
     0% {
-        color: #b8deff;
+        color: #ffc6b1;
     }
 
     25% {
-        color: #79c0ff;
+        color: #ff875c;
     }
 
     50% {
-        color: #64b7ff;
+        color: #ff6128;
     }
 
     75% {
-        color: #79c0ff;
+        color: #ff875c;
     }
 
     100% {
-        color: #b8deff;
+        color: #ffc6b1;
     }
 }
 
