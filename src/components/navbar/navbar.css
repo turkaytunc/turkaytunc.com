@@ -1,3 +1,26 @@
+@keyframes navbar-animation {
+    0% {
+        color: #b8deff;
+    }
+
+    25% {
+        color: #79c0ff;
+    }
+
+    50% {
+        color: #64b7ff;
+    }
+
+    75% {
+        color: #79c0ff;
+    }
+
+    100% {
+        color: #b8deff;
+    }
+}
+
+
 .navbar-div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -27,9 +50,17 @@
 .navbar-a {
 
     text-decoration: none;
-    color: white;
-    font-size: 1.5rem;
+    color: aliceblue;
+    font-size: 1.3rem;
 }
+
+.navbar-a:hover {
+    animation-name: navbar-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
 
 @media only screen and (max-width: 720px) {
     .navbar-li {
