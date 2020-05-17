@@ -10,7 +10,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   background: #222;
-  padding: 4rem 0;
+  padding: 3rem 0;
   align-items: center;
 }
 
@@ -42,7 +42,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   background: #222;
-  padding: 5rem 0;
+  padding: 3rem 0;
   align-items: center;
 }
 

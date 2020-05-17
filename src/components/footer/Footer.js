@@ -115,7 +115,7 @@ function Footer() {
         </ul>
       </div>
       <div className="footer-div-3">
-        <p className="footer-div-3-p">&copy;2020 Türkay Tunç</p>
+        <p className="footer-div-3-p">Copyright &copy; 2020 Türkay Tunç</p>
       </div>
     </div>
   );
