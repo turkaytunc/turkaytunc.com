@@ -1,0 +1,17 @@
+.intro {
+  color: rgb(21, 82, 90);
+  font-size: 3rem;
+  margin-top: 0;
+  padding-left: 5rem;
+
+  &:first-child {
+    padding-top: 5rem;
+  }
+}
+
+.homepage-wrapper {
+  background-color: aliceblue;
+  height: 100%;
+  margin-top: 0;
+  padding-top: 0;
+}

@@ -1,17 +1,16 @@
 import React from "react";
+import "./homepage.styles.scss";
 
 function HomePage() {
   return (
-    <div>
-      <h1>Site is under construction</h1>
-      <p>
-        You can see development on
-        <a
-          style={{ marginLeft: "0.5rem", textDecoration: "none" }}
-          href="https://github.com/turkaytunc/turkaytunc.com"
-        >
-          GitHub
-        </a>
+    <div className="homepage-wrapper">
+      <p className="intro">Hi, I'm Türkay TUNÇ.</p>
+      <p className="intro">
+        I'm a front-end web developer. Doing front-end design with React and
+        Sass.
+      </p>
+      <p className="intro">
+        Doing game development with Unity and C# as a hobby.
       </p>
     </div>
   );
