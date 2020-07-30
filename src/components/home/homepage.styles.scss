@@ -1,5 +1,5 @@
 .intro {
-  color: rgb(21, 82, 90);
+  color: black;
   font-size: 3rem;
   margin-top: 0;
   padding-left: 5rem;
@@ -11,9 +11,21 @@
 
 .homepage-wrapper {
   background: rgb(84, 146, 180);
-  background: linear-gradient(36deg, rgba(84, 146, 180, 1) 0%, rgba(28, 156, 161, 1) 30%, rgba(155, 228, 244, 1) 75%);
+  background: linear-gradient(36deg, rgb(54, 130, 143) 0%, rgba(28, 156, 161, 1) 30%, rgba(155, 228, 244, 1) 75%);
   height: 100%;
   margin-top: 0;
   padding-top: 0;
-  padding-bottom: 5rem;
+  padding-bottom: 10rem;
+}
+
+@media only screen and (max-width: 520px) {
+  .intro {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .intro {
+    font-size: 2rem;
+  }
 }

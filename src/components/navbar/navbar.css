@@ -1,53 +1,45 @@
 @keyframes navbar-animation {
     0% {
-        color: #ffc6b1;
+        color: rgb(175, 241, 250);
     }
 
-    25% {
-        color: #ff875c;
-    }
 
     50% {
-        color: #ff6128;
+        color: rgb(53, 108, 116);
     }
 
-    75% {
-        color: #ff875c;
-    }
 
     100% {
-        color: #ffc6b1;
+        color: rgb(175, 241, 250);
     }
 }
 
 .navbar-div {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: row-reverse;
     text-align: center;
     align-items: center;
-    justify-content: center;
     background: #333;
     padding: 1rem 0;
 }
 
 .navbar-ul {
     display: grid;
-    grid-column: 3;
-    grid-template-columns: repeat(4, 1fr);
-    align-items: center;
-    justify-content: center;
+    grid-template-columns: repeat(4, minmax(150px, 1fr));
+    justify-content: flex-end;
     list-style: none;
     padding-inline-start: 0;
 }
 
 .navbar-li {
     padding: .5rem;
+    margin-left: 0;
 }
 
 .navbar-a {
     text-decoration: none;
     color: aliceblue;
-    font-size: 1.3rem;
+    font-size: 2rem;
 }
 
 .navbar-a:hover {
@@ -61,20 +53,25 @@
     .navbar-li {
         padding: 1rem;
     }
+
+    .navbar-ul {
+
+        grid-template-columns: repeat(2, minmax(300px, 1fr));
+        justify-content: space-between;
+    }
 }
 
 @media only screen and (max-width: 520px) {
     .navbar-div {
-        grid-template-columns: 1fr;
+        flex-direction: column;
     }
 
     .navbar-ul {
         grid-template-columns: 1fr;
-        grid-column: 1;
     }
 
     .navbar-a {
         display: inline-block;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
