@@ -1,7 +1,7 @@
 .footer-main-wrap {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-top: 10rem;
+  padding-top: 5rem;
   background: #222;
   color: azure;
 }

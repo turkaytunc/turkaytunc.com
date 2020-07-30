@@ -10,8 +10,10 @@
 }
 
 .homepage-wrapper {
-  background-color: aliceblue;
+  background: rgb(84, 146, 180);
+  background: linear-gradient(36deg, rgba(84, 146, 180, 1) 0%, rgba(28, 156, 161, 1) 30%, rgba(155, 228, 244, 1) 75%);
   height: 100%;
   margin-top: 0;
   padding-top: 0;
+  padding-bottom: 5rem;
 }
