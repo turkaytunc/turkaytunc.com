@@ -1,4 +1,6 @@
-$background-blue-gradient: linear-gradient(to top, #7accfc 0%, #5db3fa 100%);
+$background-blue-gradient: linear-gradient(to top, #96d6fb 0%, #5d9cfa 100%);
+$border-color-hover: #6fbaf7;
+$border-color: #151616;
 
 .project-card-wrapper {
   border: 1px solid rgb(33, 53, 78);
@@ -15,9 +17,9 @@ $background-blue-gradient: linear-gradient(to top, #7accfc 0%, #5db3fa 100%);
 
   &:hover {
     transition: all 0.2s ease-out;
-    box-shadow: 2px 5px 10px rgba(32, 32, 32, 0.7);
+    box-shadow: 2px 7px 13px rgba(32, 32, 32, 0.7);
     top: -5px;
-    border: 1px solid #7bb9eb;
+    border: 1px solid $border-color-hover;
   }
 }
 
@@ -50,15 +52,15 @@ $background-blue-gradient: linear-gradient(to top, #7accfc 0%, #5db3fa 100%);
   width: 100%;
   height: 100%;
   padding: 2px;
-  border-top: 2px solid #81bce4;
+  border-top: 1px solid $border-color;
 }
 
 .project-card-h-wrapper {
   width: 100%;
   padding: 0px;
   margin: 0px;
-  background-image: linear-gradient(to top, #96d6fb 0%, #5d9cfa 100%);
-  border-bottom: 3px solid #81bce4;
+  background: $background-blue-gradient;
+  border-bottom: 1px solid $border-color;
   opacity: 0;
   animation: fadeIn 2s ease-in-out forwards;
 }
