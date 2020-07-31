@@ -1,3 +1,8 @@
+$dark-blue: rgb(35, 120, 160);
+$light-blue: rgb(61, 159, 177);
+$lighter-blue: rgba(155, 228, 244, 1);
+
+
 .intro {
   color: black;
   font-size: 3rem;
@@ -10,8 +15,8 @@
 }
 
 .homepage-wrapper {
-  background: rgb(84, 146, 180);
-  background: linear-gradient(36deg, rgb(54, 130, 143) 0%, rgba(28, 156, 161, 1) 30%, rgba(155, 228, 244, 1) 75%);
+  background: $dark-blue;
+  background: linear-gradient(180deg, $lighter-blue 0%, $light-blue 75%, $dark-blue 95%);
   height: 100%;
   margin-top: 0;
   padding-top: 0;
