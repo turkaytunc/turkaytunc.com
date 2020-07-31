@@ -8,12 +8,17 @@ export const ProjectCard = (props) => {
         style={{ textDecoration: "none", display: "flex" }}
         href={`${props.projectUrl}`}
         target="_blank"
+        rel="noopener noreferrer"
       >
         <div className="project-card-wrapper-div">
           <div className="project-card-h-wrapper">
             <h3 className="project-card-h">{`${props.projectName}`}</h3>
           </div>
-          <img className="project-card-image" src={`${props.imageUrl}`}></img>
+          <img
+            className="project-card-image"
+            src={`${props.imageUrl}`}
+            alt={props.altAttribute}
+          ></img>
           <div className="project-card-p-wrapper">
             <p className="project-card-p">{`${props.projectDescription}`}</p>
           </div>

@@ -18,6 +18,7 @@ function Contact() {
           style={{ textDecoration: "none", color: "blue", marginLeft: "2rem" }}
           href="https://www.linkedin.com/in/turkaytunc/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           LinkedIn
         </a>
