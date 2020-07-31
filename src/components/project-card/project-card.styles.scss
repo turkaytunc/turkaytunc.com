@@ -1,4 +1,4 @@
-$background-blue-gradient: linear-gradient(to top, #96d6fb 0%, #5d9cfa 100%);
+$background-blue-gradient: linear-gradient(to top, #84b4fc 0%, #97e2f5 100%);
 $border-color-hover: #6fbaf7;
 $border-color: #151616;
 
@@ -52,7 +52,6 @@ $border-color: #151616;
   width: 100%;
   height: 100%;
   padding: 2px;
-  border-top: 1px solid $border-color;
 }
 
 .project-card-h-wrapper {
@@ -60,7 +59,6 @@ $border-color: #151616;
   padding: 0px;
   margin: 0px;
   background: $background-blue-gradient;
-  border-bottom: 1px solid $border-color;
   opacity: 0;
   animation: fadeIn 2s ease-in-out forwards;
 }
