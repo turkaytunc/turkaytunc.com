@@ -12,7 +12,7 @@ export const ProjectCard = (props) => {
       >
         <div className="project-card-wrapper-div">
           <div className="project-card-h-wrapper">
-            <h3 className="project-card-h">{`${props.projectName}`}</h3>
+            <h2 className="project-card-h">{`${props.projectName}`}</h2>
           </div>
           <img
             className="project-card-image"

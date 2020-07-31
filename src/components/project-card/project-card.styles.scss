@@ -1,6 +1,8 @@
+$background-blue-gradient: linear-gradient(to top, #7accfc 0%, #5db3fa 100%);
+
 .project-card-wrapper {
   border: 1px solid rgb(33, 53, 78);
-  background-color: rgb(30, 85, 80);
+  background: $background-blue-gradient;
   border-radius: 15px;
   top: 0px;
 
@@ -28,33 +30,35 @@
 
 .project-card-wrapper-div {
   display: grid;
-  background-color: rgb(30, 85, 80);
+  background: $background-blue-gradient;
   align-items: center;
   justify-content: center;
 }
 
 .project-card-p {
   text-align: center;
-  color: aliceblue;
+  color: rgb(29, 28, 28);
   opacity: 0;
   animation: fadeIn 2s ease-in-out forwards;
+  font-size: 1.1rem;
+  font-weight: bold;
 
 }
 
 .project-card-p-wrapper {
-  background-color: rgb(30, 85, 80);
+  background: $background-blue-gradient;
   width: 100%;
   height: 100%;
   padding: 2px;
-  border-top: 2px solid black;
+  border-top: 2px solid #81bce4;
 }
 
 .project-card-h-wrapper {
   width: 100%;
   padding: 0px;
   margin: 0px;
-  background-color: black;
-  border-bottom: 3px solid rgb(148, 209, 206);
+  background-image: linear-gradient(to top, #96d6fb 0%, #5d9cfa 100%);
+  border-bottom: 3px solid #81bce4;
   opacity: 0;
   animation: fadeIn 2s ease-in-out forwards;
 }
@@ -62,6 +66,7 @@
 .project-card-h {
   text-align: center;
   color: aliceblue;
+  text-shadow: 1px 1px 0 #131212;
 }
 
 @keyframes fadeIn {
