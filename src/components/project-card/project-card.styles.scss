@@ -4,6 +4,9 @@
   border-radius: 15px;
   top: 0px;
 
+  animation: scaleIn 1s ease-in-out forwards;
+
+
   box-sizing: border-box;
   position: relative;
   overflow: hidden;
@@ -33,6 +36,9 @@
 .project-card-p {
   text-align: center;
   color: aliceblue;
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+
 }
 
 .project-card-p-wrapper {
@@ -49,9 +55,31 @@
   margin: 0px;
   background-color: black;
   border-bottom: 3px solid rgb(148, 209, 206);
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
 }
 
 .project-card-h {
   text-align: center;
   color: aliceblue;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(.3);
+  }
+
+  to {
+    transform: scale(1);
+  }
 }
