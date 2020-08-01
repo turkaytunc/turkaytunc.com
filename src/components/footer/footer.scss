@@ -79,7 +79,7 @@
 
 .footer-div-3-p {
   margin-top: auto;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   font-size: large;
 }
 
@@ -102,5 +102,50 @@
 
   .footer-div-2 ul {
     width: 60%;
+  }
+}
+
+@media only screen and (min-width: 2200px) {
+  .footer-main-wrap {
+    padding-bottom: 50vh;
+  }
+
+  .footer-div-2 li a,
+  .footer-div-2 li a:active,
+  .footer-div-2 li a:visited {
+    font-size: 2rem;
+  }
+
+  .footer-div-1 li a,
+  .footer-div-2 li a:active,
+  .footer-div-2 li a:visited {
+    font-size: 2rem;
+  }
+
+  .footer-div-3-p {
+    margin-top: auto;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 3800px) {
+
+  .footer-div-2 li a,
+  .footer-div-2 li a:active,
+  .footer-div-2 li a:visited {
+    font-size: 3rem;
+  }
+
+  .footer-div-1 li a,
+  .footer-div-2 li a:active,
+  .footer-div-2 li a:visited {
+    font-size: 3rem;
+  }
+
+  .footer-div-3-p {
+    margin-top: auto;
+    margin-bottom: 3rem;
+    font-size: 3rem;
   }
 }
