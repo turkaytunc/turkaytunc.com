@@ -15,6 +15,8 @@ $lighter-blue: rgba(155, 228, 244, 1);
 }
 
 .homepage-wrapper {
+  display: flex;
+  flex-direction: column;
   background: $dark-blue;
   background: linear-gradient(180deg, $lighter-blue 0%, $light-blue 75%, $dark-blue 95%);
   height: 100%;
@@ -32,5 +34,23 @@ $lighter-blue: rgba(155, 228, 244, 1);
 @media only screen and (max-width: 720px) {
   .intro {
     font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 2200px) {
+  .intro {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 3800px) {
+  .intro {
+    font-size: 4rem;
+
+  }
+
+  .homepage-wrapper {
+    padding-bottom: 20vh;
+    padding-top: 20vh;
   }
 }
