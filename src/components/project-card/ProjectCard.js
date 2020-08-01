@@ -5,7 +5,11 @@ export const ProjectCard = (props) => {
   return (
     <div className="project-card-wrapper">
       <a
-        style={{ textDecoration: "none", display: "flex" }}
+        style={{
+          textDecoration: "none",
+          display: "flex",
+          justifyContent: "center",
+        }}
         href={`${props.projectUrl}`}
         target="_blank"
         rel="noopener noreferrer"

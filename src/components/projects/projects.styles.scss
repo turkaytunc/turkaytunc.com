@@ -8,3 +8,14 @@
   margin: 20px;
   padding-bottom: 10rem;
 }
+
+@media only screen and (min-width: 3800px) {
+  .projects-grid-wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 50px;
+  }
+
+  .projects-outer-wrapper {
+    padding-bottom: 30vh;
+  }
+}

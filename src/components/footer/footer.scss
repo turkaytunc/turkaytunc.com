@@ -107,7 +107,7 @@
 
 @media only screen and (min-width: 2200px) {
   .footer-main-wrap {
-    padding-bottom: 30vh;
+    padding-bottom: 10vh;
   }
 
   .footer-div-2 li a,
@@ -147,5 +147,9 @@
     margin-top: auto;
     margin-bottom: 3rem;
     font-size: 3rem;
+  }
+
+  .footer-main-wrap {
+    padding-top: 20vh;
   }
 }
