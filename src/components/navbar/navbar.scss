@@ -71,7 +71,7 @@
 .hamburger-bar3 {
     width: 35px;
     height: 5px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(34, 190, 218);
     margin: 6px 0;
     transition: 0.4s;
 }
@@ -119,6 +119,19 @@
 
     .nav-hamburger {
         display: inline-block;
+    }
+
+    .navbar-hamburger-none {
+        transition: all 0.01s ease-out;
+        position: absolute;
+        transform: translateY(-400px);
+
+    }
+
+    .navbar-hamburger-normal {
+        transition: all 0.1s linear;
+        position: relative;
+        transform: translateY(0);
     }
 }
 

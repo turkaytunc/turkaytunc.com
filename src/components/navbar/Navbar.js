@@ -7,7 +7,11 @@ function Navbar() {
 
   return (
     <div>
-      <nav className="navbar-div">
+      <nav
+        className={`navbar-div ${
+          isMenuOpen ? `navbar-hamburger-normal` : `navbar-hamburger-none`
+        }`}
+      >
         <ul className="navbar-ul">
           <li className="navbar-li">
             <Link className="navbar-a" to="/">
