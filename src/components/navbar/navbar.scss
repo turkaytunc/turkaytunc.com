@@ -64,6 +64,7 @@
     position: fixed;
     top: 5px;
     right: 5px;
+
 }
 
 .hamburger-bar1,
@@ -79,6 +80,7 @@
 .change .hamburger-bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
+    background-color: white;
 }
 
 .change .hamburger-bar2 {
@@ -88,6 +90,7 @@
 .change .hamburger-bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
+    background-color: white;
 }
 
 @media only screen and (max-width: 720px) {
@@ -122,15 +125,16 @@
     }
 
     .navbar-hamburger-none {
-        transition: all 0.01s ease-out;
+        transition: all 1s ease-out;
         position: absolute;
         transform: translateX(-400px);
 
     }
 
     .navbar-hamburger-normal {
-        transition: all 0.1s linear;
-        position: relative;
+        transition: all 1s ease-out;
+        position: fixed;
+        width: 100%;
         transform: translateX(0);
     }
 }
