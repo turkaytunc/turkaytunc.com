@@ -106,18 +106,24 @@
     }
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 520px) and (min-width: 0px) {
 
     .navbar-div {
         flex-direction: column;
+        //padding: 2rem;
     }
 
     .navbar-li {
-        padding: .5rem;
+        padding-bottom: 0.2rem;
+        border-bottom: 1px solid #ccc;
+
     }
 
     .navbar-ul {
         grid-template-columns: 1fr;
+        width: 100%;
+        justify-content: flex-start;
+        text-align: left;
     }
 
     .navbar-a {
