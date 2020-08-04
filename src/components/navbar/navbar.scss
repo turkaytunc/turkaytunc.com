@@ -124,14 +124,14 @@
     .navbar-hamburger-none {
         transition: all 0.01s ease-out;
         position: absolute;
-        transform: translateY(-400px);
+        transform: translateX(-400px);
 
     }
 
     .navbar-hamburger-normal {
         transition: all 0.1s linear;
         position: relative;
-        transform: translateY(0);
+        transform: translateX(0);
     }
 }
 
