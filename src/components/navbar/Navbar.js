@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navbar.scss";
 import { Link } from "react-router-dom";
 
 function Navbar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <div>
       <nav className="navbar-div">
@@ -29,7 +31,10 @@ function Navbar() {
           </li>
         </ul>
       </nav>
-      <div className="nav-hamburger">
+      <div
+        className={`nav-hamburger ${isMenuOpen ? `change` : null}`}
+        onClick={() => setIsMenuOpen(!isMenuOpen)}
+      >
         <div className="hamburger-bar1"></div>
         <div className="hamburger-bar2"></div>
         <div className="hamburger-bar3"></div>
