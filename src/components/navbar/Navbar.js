@@ -6,7 +6,7 @@ function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div>
+    <div className="navigation-wrapper">
       <nav
         className={`navbar-div ${
           isMenuOpen ? `navbar-hamburger-normal` : `navbar-hamburger-none`
