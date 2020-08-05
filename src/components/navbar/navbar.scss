@@ -108,24 +108,31 @@
 
 @media only screen and (max-width: 520px) and (min-width: 0px) {
 
-    .navbar-div {
-        flex-direction: column;
-
+    .navigation-wrapper {
+        padding: 0;
+        margin: 0;
     }
 
+    .navbar-div {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar-ul {
+     grid-template-columns: 1fr;
+     width: 100%;
+     justify-content: flex-start;
+     text-align: left;
+     padding: 0;
+     margin: 0;
+ }
     .navbar-li {
         padding: 0rem 0rem 0.2rem 1rem;
         border-bottom: .5px solid rgba(204, 204, 204, 0.281);
 
     }
 
-    .navbar-ul {
-        grid-template-columns: 1fr;
-        width: 100%;
-        justify-content: flex-start;
-        text-align: left;
-        padding: 0;
-    }
 
     .navbar-a {
         display: inline-block;
