@@ -110,12 +110,12 @@
 
     .navbar-div {
         flex-direction: column;
-        //padding: 2rem;
+
     }
 
     .navbar-li {
-        padding-bottom: 0.2rem;
-        border-bottom: 1px solid #ccc;
+        padding: 0rem 0rem 0.2rem 1rem;
+        border-bottom: .5px solid rgba(204, 204, 204, 0.281);
 
     }
 
@@ -124,6 +124,7 @@
         width: 100%;
         justify-content: flex-start;
         text-align: left;
+        padding: 0;
     }
 
     .navbar-a {
@@ -136,7 +137,7 @@
     }
 
     .navbar-hamburger-none {
-        transition: all 0.2s ease-in-out;
+        transition: all 0.4s ease-in-out;
         top: 0;
         position: absolute;
         transform: translateX(-400px);
@@ -144,7 +145,7 @@
     }
 
     .navbar-hamburger-normal {
-        transition: all 0.2s ease-in-out;
+        transition: all 0.4s ease-in-out;
         position: fixed;
         top: 0;
         width: 100%;
