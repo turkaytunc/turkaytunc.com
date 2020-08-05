@@ -1,12 +1,12 @@
 .footer-main-wrap {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding-top: 5rem;
   background: #222;
   color: azure;
 }
 
-.footer-div-1 {
+.footer-div-1,
+.footer-div-2 {
   display: grid;
   grid-template-columns: 1fr;
   background: #222;
@@ -14,7 +14,8 @@
   align-items: center;
 }
 
-.footer-div-1 ul {
+.footer-div-1 ul,
+.footer-div-2 ul {
   justify-content: center;
   padding-inline-start: 0;
   width: 50%;
@@ -37,22 +38,6 @@
   display: inline-block;
   margin-right: 0.5rem;
   border-radius: 8px;
-}
-
-.footer-div-2 {
-  display: grid;
-  grid-template-columns: 1fr;
-  background: #222;
-  padding: 1rem 0;
-  align-items: center;
-}
-
-.footer-div-2 ul {
-  width: 50%;
-  margin-left: auto;
-  list-style: none;
-  display: inline-block;
-  padding-inline-start: 0;
 }
 
 .footer-div-2 li a,

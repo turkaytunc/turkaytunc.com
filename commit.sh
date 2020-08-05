@@ -2,5 +2,5 @@
 
 npm run build
 git add .
-git commit -m "update"
+git commit -m "deploy"
 git push -u origin master
