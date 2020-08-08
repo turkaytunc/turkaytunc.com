@@ -7,7 +7,7 @@ function Contact() {
     <div className="contact-wrapper-div">
       <h2>
         <a
-          style={{ textDecoration: "none", color: "blue", marginLeft: "2rem" }}
+          style={{ textDecoration: "none", color: "black", marginLeft: "2rem" }}
           href="mailto:turkaytunc00@gmail.com"
         >
           turkaytunc00@gmail.com
@@ -15,7 +15,7 @@ function Contact() {
       </h2>
       <h2>
         <a
-          style={{ textDecoration: "none", color: "blue", marginLeft: "2rem" }}
+          style={{ textDecoration: "none", color: "black", marginLeft: "2rem" }}
           href="https://www.linkedin.com/in/turkaytunc/"
           target="_blank"
           rel="noopener noreferrer"
