@@ -4,7 +4,7 @@ $border-color: #151616;
 
 .project-card-wrapper {
   border: 1px solid rgb(33, 53, 78);
-  background: $background-blue-gradient;
+  //background: $background-blue-gradient;
   border-radius: 15px;
   top: 0px;
 
@@ -30,7 +30,7 @@ $border-color: #151616;
 
 .project-card-wrapper-div {
   display: grid;
-  background: $background-blue-gradient;
+  //background: $background-blue-gradient;
   align-items: center;
   justify-content: center;
 }
@@ -41,7 +41,6 @@ $border-color: #151616;
   opacity: 0;
   animation: fadeIn 2s ease-in-out forwards;
   font-size: 1.1rem;
-  font-weight: bold;
 
 }
 
