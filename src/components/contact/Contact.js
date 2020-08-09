@@ -9,7 +9,7 @@ function Contact() {
         <a
           style={{
             textDecoration: "none",
-            color: "rgb(34, 190, 218)",
+            color: "#1840c4",
             marginLeft: "2rem",
             marginTop: "0",
           }}
@@ -22,7 +22,7 @@ function Contact() {
         <a
           style={{
             textDecoration: "none",
-            color: "rgb(34, 190, 218)",
+            color: "#1840c4",
             marginLeft: "2rem",
             marginTop: "0",
           }}
