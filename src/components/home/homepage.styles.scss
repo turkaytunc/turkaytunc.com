@@ -1,11 +1,14 @@
 $dark-blue: rgb(236, 236, 236);
 $light-blue: rgb(255, 255, 255);
 $lighter-blue: rgb(255, 255, 255);
+$homepage-background-color: #ccc;
+$homepage-background-color-2: linear-gradient(180deg, $lighter-blue 0%, $light-blue 75%, $dark-blue 95%);
+
 
 
 .intro {
-  color: black;
-  font-size: 3rem;
+  color: #333;
+  font-size: 2.5rem;
   margin-top: 0;
   padding-left: 5rem;
 
@@ -17,8 +20,7 @@ $lighter-blue: rgb(255, 255, 255);
 .homepage-wrapper {
   display: flex;
   flex-flow: column wrap;
-  background: $dark-blue;
-  background: linear-gradient(180deg, $lighter-blue 0%, $light-blue 75%, $dark-blue 95%);
+  background: $homepage-background-color;
   height: 100%;
   margin-top: 0;
   padding-top: 0;
