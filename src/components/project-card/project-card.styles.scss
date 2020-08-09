@@ -1,5 +1,5 @@
 $background-blue-gradient: linear-gradient(to bottom, #4088cc, #1840c4);
-$border-color-hover: #6fbaf7;
+$border-color-hover: #2186d8;
 $border-color: #666;
 
 .project-card-wrapper {
@@ -41,8 +41,6 @@ $border-color: #666;
   color: aliceblue;
   opacity: 0;
   animation: fadeIn 2s ease-in-out forwards;
-  font-size: 1.1rem;
-
 }
 
 .project-card-p-wrapper {

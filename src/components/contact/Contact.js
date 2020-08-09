@@ -11,6 +11,7 @@ function Contact() {
             textDecoration: "none",
             color: "rgb(34, 190, 218)",
             marginLeft: "2rem",
+            marginTop: "0",
           }}
           href="mailto:turkaytunc00@gmail.com"
         >
@@ -23,6 +24,7 @@ function Contact() {
             textDecoration: "none",
             color: "rgb(34, 190, 218)",
             marginLeft: "2rem",
+            marginTop: "0",
           }}
           href="https://www.linkedin.com/in/turkaytunc/"
           target="_blank"
