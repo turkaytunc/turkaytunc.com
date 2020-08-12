@@ -21,6 +21,14 @@
 }
 
 @media only screen and (max-width: 520px) and (min-width: 0px) {
+
+
+  .projects-grid-wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 0.5rem;
+  }
+
+
   .projects-outer-wrapper {
     margin: 2rem;
     padding: 2rem 0;
