@@ -10,12 +10,7 @@ function HomePage() {
 
   console.log(randColor);
   return (
-    <div
-      className="homepage-wrapper"
-      style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${process.env.PUBLIC_URL}/back.jpg)`,
-      }}
-    >
+    <div className="homepage-wrapper">
       <p className="intro" style={{ color: `${randColor}` }}>
         Hi, I'm Türkay TUNÇ.
       </p>
