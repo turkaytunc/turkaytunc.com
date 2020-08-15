@@ -1,5 +1,5 @@
-import React from "react";
-import "./homepage.styles.scss";
+import React from 'react';
+import './homepage.styles.scss';
 
 function HomePage() {
   return (
@@ -10,9 +10,7 @@ function HomePage() {
         Javascript lover. <br />
         Likes to do weird things with React and Sass.
       </p>
-      <p className="intro">
-        Making games and creating tools with Unity and C#.
-      </p>
+      <p className="intro">Makes games and creates tools with Unity and C#.</p>
     </div>
   );
 }
