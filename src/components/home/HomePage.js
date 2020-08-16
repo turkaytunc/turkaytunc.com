@@ -4,7 +4,7 @@ import './homepage.styles.scss';
 function HomePage() {
   return (
     <div className="homepage-wrapper">
-      <p className="intro">Hi, I'm Türkay TUNÇ.</p>
+      <p className="intro">Türkay TUNÇ.</p>
       <p className="intro">
         Front-end Web Developer. <br />
         Javascript lover. <br />
