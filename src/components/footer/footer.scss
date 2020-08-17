@@ -104,6 +104,12 @@
     margin-bottom: 3rem;
     font-size: 2rem;
   }
+
+  .footer-div-1 li a p img,
+  .footer-div-2 li a p img {
+    height: 32px;
+    border-radius: 16px;
+  }
 }
 
 @media only screen and (min-width: 3800px) {
