@@ -1,5 +1,5 @@
-import React from "react";
-import "./footer.scss";
+import React from 'react';
+import './footer.scss';
 
 function Footer() {
   return (
@@ -15,7 +15,7 @@ function Footer() {
             >
               <p>
                 <img
-                  src={`${process.env.PUBLIC_URL}/footer/github-icon.png`}
+                  src={`${process.env.PUBLIC_URL}/footer/github-icon-white.png`}
                   height="16px"
                   alt="github-img"
                 />
